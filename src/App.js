@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Common/Header/Header";
 import Footer from "./components/Common/Footer/Footer";
 import Home from "./components/Home/Home/Home";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
-          {/* <Route path="new" element={<NewTeamForm />} /> */}
+          <Route path="/contact" element={<Contact/>} />
           {/* <Route index element={<LeagueStandings />} /> */}
         </Routes>
       <Footer/>
