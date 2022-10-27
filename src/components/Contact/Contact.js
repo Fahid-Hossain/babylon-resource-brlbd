@@ -11,13 +11,13 @@ import { Button, Card, Col, Row } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="m-5">
+    <div>
       
-      <Row xs={1} md={2} className="g-4 mt-5 container-fluid container" style={{margin:"0 auto"}}>
+      <Row xs={1} md={2} className="g-0 mt-5 container-fluid container" style={{margin:"0 auto"}}>
    
    <Col>
    <CDBContainer>
-        <CDBCard style={{ width: "30rem" }}>
+        <CDBCard>
           <CDBCardBody className="m-4 ">
             <div className="text-center mt-4 mb-4">
               <p className="h4"> Write to Us </p>
@@ -61,7 +61,7 @@ const Contact = () => {
    </Col>
    <Col>
      <Card>
-     <img className="flex img-fluid"
+     <img
        src="https://img.freepik.com/free-vector/abstract-website-banner-with-modern-shapes_1361-1738.jpg?w=1800&t=st=1666860828~exp=1666861428~hmac=b8afa4912eeb602a01891e7278407e99129fa62c40b88dd0108fc020b4c86e05"
        alt="card img"
        width="100%"
