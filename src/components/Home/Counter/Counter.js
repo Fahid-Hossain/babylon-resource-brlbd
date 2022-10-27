@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 

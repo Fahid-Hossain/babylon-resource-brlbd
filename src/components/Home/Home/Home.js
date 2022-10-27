@@ -8,7 +8,6 @@ const Home = () => {
     return (
         <div>
             <Slider/>
-            <Counter/>
             <HomeAbout/>
             <SpeacialArea/>
         </div>

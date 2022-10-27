@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Counter from "../Counter/Counter";
 const HomeAbout = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const HomeAbout = () => {
           </Card>
         </Col>
     </Row>
+    <Counter/>
     </>
   );
 };

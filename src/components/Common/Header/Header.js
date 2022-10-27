@@ -18,7 +18,7 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto fs-5">
                 <NavLink className="nav-link" to="/home">Home</NavLink>
                 <NavLink className="nav-link" to="/about">About</NavLink>
                 <NavLink className="nav-link" to="/blog">Blog</NavLink>
@@ -36,12 +36,6 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Dank memes
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

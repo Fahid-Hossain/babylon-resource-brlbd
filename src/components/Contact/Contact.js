@@ -7,7 +7,7 @@ import {
   CDBBtn,
   CDBContainer,
 } from "cdbreact";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 
 const Contact = () => {
   return (
@@ -20,7 +20,7 @@ const Contact = () => {
         <CDBCard>
           <CDBCardBody className="m-4 ">
             <div className="text-center mt-4 mb-4">
-              <p className="h4"> Write to Us </p>
+              <p className="h4"> Get in Touch </p>
             </div>
             <label htmlFor="defaultContactName" className="text-muted m-0">
               Your name
