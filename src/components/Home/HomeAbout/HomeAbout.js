@@ -11,7 +11,7 @@ const HomeAbout = () => {
         <Col>
           <Card>
             <Card.Body className="m-5" style={{textAlign:"left"}}>
-              <Card.Title className="mb-5">
+              <Card.Title className="mb-4">
                 <h1 className="text-secondary fw-bold">About the company</h1>
                 </Card.Title>
               <Card.Text>
