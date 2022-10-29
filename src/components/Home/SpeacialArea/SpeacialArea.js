@@ -24,7 +24,7 @@ const SpeacialArea = () => {
           rotate: 50,
           stretch: 0,
           depth: 100,
-          modifier: 1,
+          modifier: 3,
           slideShadows: true,
         }}
         pagination={true}

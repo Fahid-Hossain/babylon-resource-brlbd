@@ -12,7 +12,7 @@ const Counter = () => {
         onEnter={() => setCountUp(true)}
         onExit={() => setCountUp(false)}
       >
-        <Row xs={1} md={2} lg={4} className="g-2 mt-5 container-fluid">
+        <Row xs={1} md={2} lg={4} className="g-2 mt-5 container-fluid container" style={{margin:"0 auto"}}>
           <Col>
             <Card style={{minWidth:"15.625rem"}}>
               <Card.Body className="m-5">
