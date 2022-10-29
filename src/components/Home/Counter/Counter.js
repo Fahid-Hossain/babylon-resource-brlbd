@@ -7,7 +7,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Counter = () => {
   const [countup, setCountUp] = useState(false);
   return (
-    <div className="container">
+    <div className="mx-4">
       <ScrollTrigger
         onEnter={() => setCountUp(true)}
         onExit={() => setCountUp(false)}

@@ -15,18 +15,18 @@ const Forms = () => {
     }
   });
   return (
-    <div className="m-4">
+    <div className="mt-4">
       <form onSubmit={handleSubmit(onSubmit)}>
         <label className="text-dark">First Name</label>
-        <input {...register("firstName", { required: true, maxLength: 20 })} />
+        <input className="border" {...register("firstName", { required: true, maxLength: 20 })} />
         {/* <label className="text-dark">Last Name</label>
         <input {...register("lastName", { pattern: /^[A-Za-z]+$/i })} /> */}
         <label className="text-dark">Company Name</label>
-        <input {...register("Company Name", { pattern: /^[A-Za-z]+$/i })} />
+        <input className="border" {...register("Company Name", { pattern: /^[A-Za-z]+$/i })} />
         <label className="text-dark">Business Email</label>
-        <input type={"email"} {...register("email")} />
+        <input className="border" type={"email"} {...register("email")} />
         <label className="text-dark">Phone</label>
-        <input
+        <input className="border"
           type="number"
           {...register("phone", { minLength: 11, maxLength: 14 })}
         />

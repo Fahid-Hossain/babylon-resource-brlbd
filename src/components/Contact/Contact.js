@@ -44,7 +44,7 @@ const Contact = () => {
             </label>
             <CDBInput
               id="defaultContactMessage"
-              className="mt-n3"
+              className="mt-n2"
               type="textarea"
             />
             <CDBBtn

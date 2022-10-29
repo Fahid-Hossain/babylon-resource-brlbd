@@ -7,13 +7,13 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>
          <Link to="/" className="text-decoration-none"> 
               
               
-           <h3 className="text-decoration-none text-secondary"><img src="images/logo/1.png" width={"60px"} alt="" /> Devwares</h3>
+           <h3 className="text-decoration-none text-white"><img src="images/logo/1.png" width={"60px"} alt="" /> Devwares</h3>
               </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

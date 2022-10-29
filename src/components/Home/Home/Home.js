@@ -1,4 +1,6 @@
 import React from 'react';
+import Blog from '../../Blog/Blog';
+import Contact from '../../Contact/Contact';
 import Breakfast from '../../Foods/Breakfast';
 import Foods from '../../Foods/Foods';
 import Forms from '../../Forms/Forms';
@@ -10,9 +12,11 @@ const Home = () => {
     return (
         <div>
             <Slider/>
-            <HomeAbout/>
             <SpeacialArea/>
-            <Forms/>
+            <HomeAbout/>
+            <Blog/>
+            <Contact/>
+            {/* <Forms/> */}
         </div>
     );
 };
