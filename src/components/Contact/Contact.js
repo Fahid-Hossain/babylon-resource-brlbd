@@ -8,6 +8,7 @@ import {
   CDBContainer,
 } from "cdbreact";
 import { Card, Col, Row } from "react-bootstrap";
+import Forms from "../Forms/Forms";
 
 const Contact = () => {
   return (
@@ -61,11 +62,12 @@ const Contact = () => {
    </Col>
    <Col>
      <Card>
-     <img
+     {/* <img
        src="https://img.freepik.com/free-vector/abstract-website-banner-with-modern-shapes_1361-1738.jpg?w=1800&t=st=1666860828~exp=1666861428~hmac=b8afa4912eeb602a01891e7278407e99129fa62c40b88dd0108fc020b4c86e05"
        alt="card img"
        width="100%"
-     />
+     /> */}
+     <Forms/>
      </Card>
    </Col>
 </Row>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from '../Counter/Counter';
+import Forms from '../../Forms/Forms';
 import HomeAbout from '../HomeAbout/HomeAbout';
 import Slider from '../Slider/Slider';
 import SpeacialArea from '../SpeacialArea/SpeacialArea';
@@ -10,6 +10,7 @@ const Home = () => {
             <Slider/>
             <HomeAbout/>
             <SpeacialArea/>
+            <Forms/>
         </div>
     );
 };
