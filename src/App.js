@@ -7,6 +7,10 @@ import Home from "./components/Home/Home/Home";
 import Contact from "./components/Contact/Contact";
 import HomeAbout from "./components/Home/HomeAbout/HomeAbout";
 import Blog from "./components/Blog/Blog";
+import Foods from "./components/Foods/Foods";
+import Breakfast from "./components/Foods/Breakfast";
+import Launch from "./components/Foods/Launch";
+import Dinner from "./components/Foods/Dinner";
 
 function App() {
   return (
@@ -19,6 +23,12 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/about" element={<HomeAbout/>} />
           <Route path="/blog" element={<Blog/>} />
+          {/* -------Nested routes=--------- */}
+          <Route path="/foods" element={<Foods/>}> 
+            <Route path="breakfast" element={<Breakfast/>} />
+            <Route path="launch" element={<Launch/>} />
+            <Route path="dinner" element={<Dinner/>} />
+          </Route>
         </Routes>
       <Footer/>
       </BrowserRouter>

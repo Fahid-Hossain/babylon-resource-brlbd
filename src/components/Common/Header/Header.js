@@ -21,6 +21,7 @@ const Header = () => {
             <Nav className="ms-auto fs-5">
                 <NavLink className="nav-link" to="/home">Home</NavLink>
                 <NavLink className="nav-link" to="/about">About</NavLink>
+                <NavLink className="nav-link" to="/foods">Foods</NavLink>
                 <NavLink className="nav-link" to="/blog">Blog</NavLink>
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
