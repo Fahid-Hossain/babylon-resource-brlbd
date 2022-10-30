@@ -12,10 +12,10 @@ const Forms = () => {
         <div class="row mb-4">
           <div class="col">
             <div class="form-outline">
-              <input
+              <input 
                 type="text"
                 id="form3Example1"
-                class="form-control"
+                class="form-control border border-primary rounded-pill"
                 required
               />
               <label class="form-label" for="form3Example1">
@@ -28,7 +28,7 @@ const Forms = () => {
               <input
                 type="text"
                 id="form3Example2"
-                class="form-control"
+                class="form-control border border-primary rounded-pill"
                 required
               />
               <label class="form-label" for="form3Example2">
@@ -43,7 +43,7 @@ const Forms = () => {
           <input
             type="email"
             id="form3Example3"
-            class="form-control"
+            class="form-control border border-primary rounded-pill"
             required
           />
           <label class="form-label" for="form3Example3">
@@ -53,7 +53,7 @@ const Forms = () => {
 
         {/* <!-- Message input --> */}
         <div class="form-outline mb-1">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <textarea class="form-control border border-primary rounded" id="form4Example3" rows="4"></textarea>
           <label class="form-label" for="form4Example3">
             Message
           </label>

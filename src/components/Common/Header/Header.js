@@ -7,7 +7,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <Navbar className="navbar navbar-expand-sm bg-light fixed-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar className="navbar navbar-expand-lg fixed-top navbar-scroll" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>
          <Link to="/" className="text-decoration-none"> 

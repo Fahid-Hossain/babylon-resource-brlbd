@@ -9,7 +9,7 @@ const Slider = () => {
           <img
             className="d-block w-100"
             src="https://img.freepik.com/free-vector/la-paz-bolivia-city-skyline-sky-background_596401-662.jpg?size=626&ext=jpg"
-            alt="First slide"
+            alt="First slide" style={{height:"100vh",opacity:"0.6"}}
           />
          
           {/* <Carousel.Caption>

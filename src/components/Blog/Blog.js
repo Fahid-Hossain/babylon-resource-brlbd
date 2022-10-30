@@ -1,90 +1,118 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 const Blog = () => {
   return (
-    <div>
-      <h1 className="text-secondary mt-5 pt-5 text-center fw-bold"><span className="border-bottom border-secondary">Our Blogs</span></h1>
-      <Row
-        xs={1}
-        md={2}
-        className="g-4 mt-3 container-fluid container"
-        style={{ margin: "0 auto" }}
-      >
-        <Col>
-          <Card>
-            <Card.Body className="m-3" style={{ textAlign: "left" }}>
-              <Card.Title className="mb-4">
-                <h2 className="text-secondary fw-bold">
-                  ভার্চ্যুয়াল প্লাটফর্মে অনুষ্ঠিত হল ‘ডিজিটাল ওয়ার্ল্ড ২০২০’
-                  প্রদর্শনী
-                </h2>
-              </Card.Title>
-              <Card.Text>
-          <p className="text-secondary fs-6"> ভিন্ন পরিস্থিতি ও প্রেক্ষাপটে শেষ হল এবারের ডিজিটাল
-                ওয়ার্ল্ড-২০২০ এর সপ্তম আসর। তিন দিনের এই প্রদর্শনী শুরু হয়েছিল ৯
-                ডিসেম্বর এবং শেষ হল ১১ ডিসেম্বর। ৯ ডিসেম্বর সকালে ভিডিও
-                কনফারেন্সের মাধ্যমে, ‘সোশ্যালি ডিসটেন্সড, ডিজিটালি কানেক্টেড’ এই
-                প্রতিপাদ্য নিয়ে আয়োজিত ‘ডিজিটাল ওয়ার্ল্ড ২০২০’ এর সপ্তম আসরের
-                উদ্বোধন করেন মাননীয় রাষ্ট্রপতি মো. আবদুল হামিদ ।</p>
-              </Card.Text>
-
-              <Button className="mt-2" variant="info" size="md">
-                Read More
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <img
-              className="flex img-fluid"
-              src="./images/websites.png"
-              alt="card img"
-              width="100%"
-            />
-          </Card>
-        </Col>
+    <section style={{backgroundColor: "#eee"}}>
+    <div className="container py-5">
+      <h3 className="text-center mb-5 mt-5 text-secondary fw-bold "><strong>Our Blogs</strong></h3>
   
-        <Col>
-          <Card>
-            <img
-              className="flex img-fluid"
-              src="./images/websites-1.png"
-              alt="card img"
-              width="100%"
-            />
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="m-4" style={{ textAlign: "left" }}>
-              <Card.Title className="mb-4">
-                <h2 className="text-secondary fw-bold">
-                  ভার্চ্যুয়াল প্লাটফর্মে অনুষ্ঠিত হল ‘ডিজিটাল ওয়ার্ল্ড ২০২০’
-                  প্রদর্শনী
-                </h2>
-              </Card.Title>
-              <Card.Text>
-              <p className="text-secondary fs-6"> ভিন্ন পরিস্থিতি ও প্রেক্ষাপটে শেষ হল এবারের ডিজিটাল
-                ওয়ার্ল্ড-২০২০ এর সপ্তম আসর। তিন দিনের এই প্রদর্শনী শুরু হয়েছিল ৯
-                ডিসেম্বর এবং শেষ হল ১১ ডিসেম্বর। ৯ ডিসেম্বর সকালে ভিডিও
-                কনফারেন্সের মাধ্যমে, ‘সোশ্যালি ডিসটেন্সড, ডিজিটালি কানেক্টেড’ এই
-                প্রতিপাদ্য নিয়ে আয়োজিত ‘ডিজিটাল ওয়ার্ল্ড ২০২০’ এর সপ্তম আসরের
-                উদ্বোধন করেন মাননীয় রাষ্ট্রপতি মো. আবদুল হামিদ ।</p>
-              </Card.Text>
-
-              <Button className="mt-2" variant="info" size="md">
-                Read More
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
+      <div className="row">
+        <div className="col-lg-4 col-md-12 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(1).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$123</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(2).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$239</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(3).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$147</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div className="row">
+        <div className="col-lg-4 col-md-12 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded ripple-surface">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(4).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$83</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(5).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$106</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="bg-image hover-zoom ripple shadow-1-strong rounded">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(6).webp"
+              className="w-100" />
+            <a href="#!">
+              <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                <div className="d-flex justify-content-start align-items-start h-100">
+                  <h5><span className="badge bg-light pt-2 ms-3 mt-3 text-dark">$58</span></h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div className="mask" style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
   );
 };
 

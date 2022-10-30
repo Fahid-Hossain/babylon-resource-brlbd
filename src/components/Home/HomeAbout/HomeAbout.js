@@ -1,40 +1,30 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Counter from "../Counter/Counter";
 const HomeAbout = () => {
   return (
     <>
-   <Row xs={1} md={2} className="g-4 mt-5 pt-5 container-fluid container" style={{margin:"0 auto"}}>
-   
-        <Col>
-          <Card>
-            <Card.Body className="m-3" style={{textAlign:"left"}}>
-              <Card.Title className="mb-4">
-                <h2 className="text-secondary fw-bold">About the company</h2>
-                </Card.Title>
-              <Card.Text>
-          <p className="text-secondary fs-6"> Babylon Resources Ltd. is a leading IT firm which develops & implements different IT solutions to make your business life easier. Since our inception, we have been maintaining a sophisticated code of service level and standard, which drives us to achieve our clients’ trust & become their reliable technology partner..</p>
-              </Card.Text>
-
-            <Button className="mt-2" variant="info" size="md">Read More</Button>
-            </Card.Body>
-          
-
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-          <img className="flex img-fluid"
-            src="./images/websites-1.png"
-            alt="card img"
-            width="100%"
-          />
-          </Card>
-        </Col>
-    </Row>
+   <div class="card mb-3 container" style={{marginTop:"5rem"}}>
+  <div class="row g-0 mt-5">
+    <div class="col-md-4">
+      <img
+        src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+        alt="Trendy Pants and Shoes"
+        class="img-fluid rounded-start"
+      />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body mt-5">
+        <h2 class="card-title ">About the company</h2>
+        <p class="card-text fs-6 text-secondary">
+          This is a wider card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.Babylon Resources Ltd. is a leading IT firm which develops & implements different IT solutions to make your business life easier. Since our inception, we have been maintaining a sophisticated code of service level and standard, which drives us to achieve our clients’ trust & become their reliable technology partner. We have a strong mobile games & apps development team who is always working on developing apps & games.
+        </p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
     </>
   );
 };
