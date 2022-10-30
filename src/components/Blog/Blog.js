@@ -7,10 +7,11 @@ import Row from "react-bootstrap/Row";
 const Blog = () => {
   return (
     <div>
+      <h1 className="text-secondary mt-5 pt-5 text-center fw-bold"><span className="border-bottom border-secondary">Our Blogs</span></h1>
       <Row
         xs={1}
         md={2}
-        className="g-4 mt-5 container-fluid container"
+        className="g-4 mt-3 container-fluid container"
         style={{ margin: "0 auto" }}
       >
         <Col>

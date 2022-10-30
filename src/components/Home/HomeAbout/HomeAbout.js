@@ -7,7 +7,7 @@ import Counter from "../Counter/Counter";
 const HomeAbout = () => {
   return (
     <>
-   <Row xs={1} md={2} className="g-4 mt-5 container-fluid container" style={{margin:"0 auto"}}>
+   <Row xs={1} md={2} className="g-4 mt-5 pt-5 container-fluid container" style={{margin:"0 auto"}}>
    
         <Col>
           <Card>
@@ -35,7 +35,6 @@ const HomeAbout = () => {
           </Card>
         </Col>
     </Row>
-    <Counter/>
     </>
   );
 };

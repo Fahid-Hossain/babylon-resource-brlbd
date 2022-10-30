@@ -13,7 +13,7 @@ const Header = () => {
          <Link to="/" className="text-decoration-none"> 
               
               
-           <h3 className="text-decoration-none text-white"><img src="images/logo/1.png" width={"60px"} alt="" /> Devwares</h3>
+           <h3 className="text-decoration-none text-white fw-bold"><img src="images/logo/1.png" width={"32rem"} alt="" /> DEV</h3>
               </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -21,10 +21,9 @@ const Header = () => {
             <Nav className="ms-auto fs-5">
                 <NavLink className="nav-link" to="/home">Home</NavLink>
                 <NavLink className="nav-link" to="/about">About</NavLink>
-                <NavLink className="nav-link" to="/foods">Foods</NavLink>
                 <NavLink className="nav-link" to="/blog">Blog</NavLink>
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -36,7 +35,7 @@ const Header = () => {
                 <NavDropdown.Item href="#action/3.4">
                   Separated link
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
