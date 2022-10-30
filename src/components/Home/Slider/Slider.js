@@ -6,14 +6,12 @@ const Slider = () => {
     <>
       <Carousel variant="dark">
         <Carousel.Item>
-          {/* <img
+          <img
             className="d-block w-100"
-            src="https://img.freepik.com/free-vector/gradient-medical-facebook-cover_23-2149117300.jpg?w=1800&t=st=1666852996~exp=1666853596~hmac=766647891bca803bd7d6121b02cd8a3557ca2a2d697d139cd7610659fcb1b919"
+            src="https://img.freepik.com/free-vector/la-paz-bolivia-city-skyline-sky-background_596401-662.jpg?size=626&ext=jpg"
             alt="First slide"
-          /> */}
-          <video className='videoTag' autoPlay loop muted>
-    <source src="./Creative-Software.mp4" type='video/mp4' />
-</video>
+          />
+         
           {/* <Carousel.Caption>
             <h1>First slide label</h1>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
