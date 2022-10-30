@@ -4,6 +4,8 @@ import Contact from '../../Contact/Contact';
 import Breakfast from '../../Foods/Breakfast';
 import Foods from '../../Foods/Foods';
 import Forms from '../../Forms/Forms';
+import Pricing from '../../Pricing/Pricing';
+import Training from '../../Training/Training';
 import Counter from '../Counter/Counter';
 import HomeAbout from '../HomeAbout/HomeAbout';
 import Slider from '../Slider/Slider';
@@ -17,6 +19,8 @@ const Home = () => {
             <SpeacialArea/>
             <HomeAbout/>
             <Blog/>
+            <Training/>
+            <Pricing/>
             <Contact/>
             {/* <Forms/> */}
         </div>

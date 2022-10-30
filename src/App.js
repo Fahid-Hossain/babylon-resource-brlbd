@@ -11,6 +11,7 @@ import Foods from "./components/Foods/Foods";
 import Breakfast from "./components/Foods/Breakfast";
 import Launch from "./components/Foods/Launch";
 import Dinner from "./components/Foods/Dinner";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/about" element={<HomeAbout/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/blog" element={<Blog/>} />
           {/* -------Nested routes=--------- */}
           <Route path="/foods" element={<Foods/>}> 

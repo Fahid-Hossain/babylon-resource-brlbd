@@ -6,7 +6,7 @@ import Forms from "../Forms/Forms";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="mt-3">
       
       <Row xs={1} md={2} className="g-0 mt-5 container-fluid container" style={{margin:"0 auto"}}>
    
