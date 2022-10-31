@@ -3,10 +3,13 @@ import "./Contact.css"
 
 import { Col, Row } from "react-bootstrap";
 import Forms from "../Forms/Forms";
+import ContactHeader from "./ContactHeader";
 
 const Contact = () => {
   return (
-    <div className="mt-3">
+    <>
+    <ContactHeader/>
+    <div id="contact" className="mt-3">
       
       <Row xs={1} md={2} className="g-0 mt-5 container-fluid container" style={{margin:"0 auto"}}>
    
@@ -29,6 +32,7 @@ const Contact = () => {
    </Col>
 </Row>
     </div>
+    </>
   );
 };
 

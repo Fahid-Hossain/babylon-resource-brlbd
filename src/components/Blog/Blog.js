@@ -3,8 +3,8 @@ import React from "react";
 const Blog = () => {
   return (
     <section style={{ backgroundColor: "#eee" }}>
-      <div className="container py-5">
-        <h3 className="text-center mb-5 mt-5 text-secondary fw-bold ">
+      <div className="container">
+        <h3 className="text-center mb-5 text-secondary fw-bold ">
           <strong>Our Blogs</strong>
         </h3>
 

@@ -2,8 +2,8 @@ import React from "react";
 const HomeAbout = () => {
   return (
     <>
-   <div class="card mb-3 container" style={{marginTop:"5rem"}}>
-  <div class="row g-0 mt-5">
+   <div class="card mb-3 container mt-5">
+  <div class="row g-4">
     <div class="col-md-4">
       <img
         src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
