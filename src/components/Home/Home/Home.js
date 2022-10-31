@@ -1,12 +1,13 @@
 import React from 'react';
 import AbouHome from '../../About/AbouHome';
-import Blog from '../../Blog/Blog';
+import BlogHome from '../../Blog/BlogHome';
 import Clients from '../../Clients/Clients';
 import Contact from '../../Contact/Contact';
 import ContactBanner from '../../ContactBanner/ContactBanner';
 import Feedback from '../../Feedback/Feedback';
 import PortfolioHome from '../../Portfolio/PortfolioHome';
 import Pricing from '../../Pricing/Pricing';
+import ServicesHome from '../../Services/ServicesHome';
 import Training from '../../Training/Training';
 import Banner from '../Banner/Banner';
 import Counter from '../Counter/Counter';
@@ -25,7 +26,8 @@ const Home = () => {
             <AbouHome/>
             <PortfolioHome/>
             <ContactBanner/>
-            <Blog/>
+            <ServicesHome/>
+            {/* <BlogHome/> */}
             {/* <Training/> */}
             <Pricing/>
             {/* <SpeacialArea/> */}

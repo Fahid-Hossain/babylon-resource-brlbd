@@ -14,6 +14,7 @@ import Dinner from "./components/Foods/Dinner";
 import About from "./components/About/About";
 import Navigation from "./components/Common/Navigation/Navigation";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="portfolio" element={<Portfolio/>} />
           <Route path="/blog" element={<Blog/>} />
+          <Route path="/services" element={<Services/>} />
           {/* -------Nested routes=--------- */}
           <Route path="/foods" element={<Foods/>}> 
             <Route path="breakfast" element={<Breakfast/>} />
