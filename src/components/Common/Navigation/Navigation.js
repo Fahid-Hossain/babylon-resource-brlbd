@@ -52,7 +52,7 @@ const Navigation = () => {
                     </nav>
                   </div>
                   <div class="header-right-btn f-right d-none d-xl-block ml-20">
-                    <a href="#" class="btn header-btn">Get Free Consultent</a>
+                    <a href="/" class="btn header-btn">Get Free Consultent</a>
                   </div>
                 </div>
               </div>

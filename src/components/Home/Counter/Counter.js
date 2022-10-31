@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 

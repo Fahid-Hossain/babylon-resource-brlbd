@@ -3,7 +3,7 @@ import React from 'react';
 const PortfolioHome = () => {
     return (
         <div>
-        <section class="services-area  services-padding">
+        <section class="services-area services-padding">
 <div class="container">
 <div class="project-heading mb-35">
 <div class="row align-items-end">

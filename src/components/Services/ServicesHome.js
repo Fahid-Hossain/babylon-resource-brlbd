@@ -3,7 +3,7 @@ import React from "react";
 const ServicesHome = () => {
   return (
     <div>
-      <section class="categories-area categories-area2  section-padding30">
+      <section class="categories-area categories-area2 section-padding30">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
